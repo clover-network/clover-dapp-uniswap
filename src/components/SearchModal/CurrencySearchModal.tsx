@@ -1,4 +1,4 @@
-import { Currency } from '@uniswap/sdk'
+import { Currency } from '@clover-network/defi-sdk'
 import React, { useCallback, useEffect, useState } from 'react'
 import ReactGA from 'react-ga'
 import useLast from '../../hooks/useLast'

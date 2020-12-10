@@ -1,4 +1,4 @@
-import { CurrencyAmount, ETHER, JSBI } from '@uniswap/sdk'
+import { CurrencyAmount, ETHER, JSBI } from '@clover-network/defi-sdk'
 import { MIN_ETH } from '../constants'
 
 /**

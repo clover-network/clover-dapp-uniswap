@@ -1,4 +1,4 @@
-import { Trade, TradeType } from '@uniswap/sdk'
+import { Trade, TradeType } from '@clover-network/defi-sdk'
 import React, { useContext, useMemo, useState } from 'react'
 import { Repeat } from 'react-feather'
 import { Text } from 'rebass'
