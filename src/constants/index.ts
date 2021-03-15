@@ -29,7 +29,7 @@ export const GOVERNANCE_ADDRESS = '0x5e4be8Bc9637f0EAA1A755019e06A68ce081D58F'
 
 export const TIMELOCK_ADDRESS = '0x1a9C8182C09F50C8318d769245beA52c32BE35BC'
 
-const UNI_ADDRESS = '0x77bBb943dF9710B1793F8335B2c375B5C8AaD875'
+const UNI_ADDRESS = '0xEBf2Bdff0086C84Ebf90b97AaB05992B6Ca9eDff'
 export const UNI: { [chainId in ChainId]: Token } = {
   [ChainId.MAINNET]: new Token(ChainId.MAINNET, UNI_ADDRESS, 18, 'UNI', 'Uniswap'),
   [ChainId.RINKEBY]: new Token(ChainId.RINKEBY, UNI_ADDRESS, 18, 'UNI', 'Uniswap'),
@@ -39,7 +39,7 @@ export const UNI: { [chainId in ChainId]: Token } = {
   [ChainId.CLOVER]: new Token(ChainId.CLOVER, UNI_ADDRESS, 18, 'UNI', 'Uniswap')
 }
 
-export const CLV = new Token(ChainId.CLOVER, '0x77bBb943dF9710B1793F8335B2c375B5C8AaD875', 18, 'CLV', 'CLV Coin')
+export const CLV = new Token(ChainId.CLOVER, '0x81d1C472Ed61C864A0eca9b682e95B33B345B9C7', 18, 'CLV', 'CLV Coin')
 
 export const COMMON_CONTRACT_NAMES: { [address: string]: string } = {
   [GOVERNANCE_ADDRESS]: 'Governance',
